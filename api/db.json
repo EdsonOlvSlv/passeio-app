@@ -7,8 +7,31 @@
     },
     {
       "id": "ac14",
-      "nome": "Restaurantes[Atualizado]",
+      "nome": "Restaurantes",
       "descricao": "Para alimentação"
+    },
+    {
+      "id": "ac1d4",
+      "nome": "Praias",
+      "descricao": "Para relaxar e aproveitar o sol"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "d328",
+      "nome": "Praia do Forte",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/11/praia-do-espelho-capa2019-820x430.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "730c",
+      "nome": "Restaurante do Fogaça",
+      "categoria": "Restaurantes",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmr7krbkudDW4FDAFA98IsNe8q0hjOlXxiBA&s",
+      "avaliacao": "4"
     }
   ]
 }
