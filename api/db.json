@@ -14,6 +14,11 @@
       "id": "ac1d4",
       "nome": "Praias",
       "descricao": "Para relaxar e aproveitar o sol"
+    },
+    {
+      "id": "56f3",
+      "nome": "Lagos e Rios",
+      "descricao": "Lugares para passear, nadar e lanchar"
     }
   ],
   "lugares": [
@@ -22,7 +27,7 @@
       "nome": "Praia do Forte",
       "categoria": "Praias",
       "localizacao": "Bahia",
-      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2020/11/praia-do-espelho-capa2019-820x430.jpg",
+      "urlFoto": "https://harus.ind.br/wp-content/uploads/2023/02/5-praias-brasileiras.jpg",
       "avaliacao": "4"
     },
     {
@@ -30,8 +35,24 @@
       "nome": "Restaurante do Fogaça",
       "categoria": "Restaurantes",
       "localizacao": "São Paulo",
-      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmr7krbkudDW4FDAFA98IsNe8q0hjOlXxiBA&s",
+      "urlFoto": "https://cloudfront-us-east-1.images.arcpublishing.com/estadao/3YDNIKKI3NFKHAYYV6SB6IT5FU.jpg",
       "avaliacao": "4"
+    },
+    {
+      "id": "8b80",
+      "nome": "Shopping Del Rey",
+      "categoria": "Shoppings",
+      "localizacao": "Belo Horizonte",
+      "urlFoto": "https://diariodocomercio.com.br/wp-content/uploads/2024/07/shopping-del-rey-belo-horizonte-1.jpg",
+      "avaliacao": "3"
+    },
+    {
+      "id": "d1d7",
+      "nome": "Rio Tiete",
+      "categoria": "Lagos e Rios",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://imagens.ebc.com.br/jZNaSA3QeJIK98QbfuhU7bcBEfY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rvrsa_abr_080720120506_0.jpg?itok=qUdSTuvR",
+      "avaliacao": "Selecione uma avaliação"
     }
   ]
 }
