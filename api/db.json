@@ -1,0 +1,24 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Para fazer compras e passear"
+    },
+    {
+      "id": "ac14",
+      "nome": "Restaurantes[Atualizado]",
+      "descricao": "Para alimentação"
+    },
+    {
+      "id": "c015",
+      "nome": "Praia",
+      "descricao": "Lugar para banhar"
+    },
+    {
+      "id": "15dc",
+      "nome": "asdf",
+      "descricao": "zxxxxv"
+    }
+  ]
+}
