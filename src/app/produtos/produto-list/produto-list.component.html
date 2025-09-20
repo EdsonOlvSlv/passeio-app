@@ -1,0 +1,29 @@
+<!-- src/app/produtos/produto-list/produto-list.component.html -->
+<div class="card">
+  <h3 class="text-lg font-semibold mb-2">Produtos cadastrados</h3>
+  <ng-container *ngIf="items?.length; else empty">
+    <div class="divide-y">
+      <div
+        *ngFor="let p of items"
+        class="py-2 flex justify-between items-center"
+      >
+        <div>
+          <div class="font-medium">{{ p.nome }}</div>
+          <div class="text-xs text-gray-500">
+            Taxa anual: {{ p.taxaJurosAnual | number : "1.2-2" }}% • Prazo máx:
+            {{ p.prazoMaximoMeses }}m
+          </div>
+        </div>
+        <span
+          class="text-[10px] px-2 py-1 rounded bg-caixaPrimary/10 text-caixaPrimary"
+          >ID: {{ p.id }}</span
+        >
+      </div>
+    </div>
+  </ng-container>
+  <ng-template #empty
+    ><div class="text-sm text-gray-500">
+      Nenhum produto cadastrado.
+    </div></ng-template
+  >
+</div>

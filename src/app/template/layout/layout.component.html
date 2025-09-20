@@ -1,41 +1,21 @@
+<!-- src/app/template/layout/layout.component.html -->
 <header
-  class="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 shadow-lg"
+  class="text-white"
+  style="background: linear-gradient(135deg, #005ca9, #0e86ff)"
 >
-  <div class="text-center">
-    <h1 class="text-3xl font-bold">{{ props.titulo }}</h1>
-    <p class="text-lg mt-2">{{ props.subTitulo }}</p>
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <h1 class="font-bold">CAIXA – Crédito Digital</h1>
+    <nav class="flex gap-3 text-sm">
+      <a routerLink="/produtos" routerLinkActive="underline">Produtos</a>
+      <a routerLink="/simular" routerLinkActive="underline">Simular</a>
+    </nav>
   </div>
-  <div class="mt-4">
-    <hr class="border-t border-blue-300 opacity-50" />
-  </div>
-  <nav class="mt-4">
-    <ul class="flex justify-center space-x-6 text-white font-semibold">
-      <li>
-        <a routerLink="/paginas/galeria" class="hover:text-yellow-300"
-          >Galeria</a
-        >
-      </li>
-      <li>
-        <a routerLink="/paginas/categorias" class="hover:text-yellow-300"
-          >Categorias</a
-        >
-      </li>
-      <li>
-        <a routerLink="/paginas/lugares" class="hover:text-yellow-300"
-          >Lugares</a
-        >
-      </li>
-      <li>
-        <a routerLink="/" class="hover:text-yellow-300">Sair</a>
-      </li>
-    </ul>
-  </nav>
 </header>
 
-<router-outlet></router-outlet>
+<main class="max-w-4xl mx-auto p-4 space-y-4">
+  <router-outlet></router-outlet>
+</main>
 
-<footer class="bg-gray-200 text-center p-4 mt-6">
-  <p class="text-gray-600 text-sm">
-    2025 Lugares Legais. Todos os direitos reservados.
-  </p>
+<footer class="text-center text-xs text-gray-500 py-6">
+  © {{ year }} Caixa – Demo
 </footer>

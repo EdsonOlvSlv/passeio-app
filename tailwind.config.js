@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: [
-    /* arquivos que ele vai ficar observando para poder estilizar */
-    "./src/**/*.{html, ts,scss}",
-  ],
+  content: ["./src/**/*.{html,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        caixaPrimary: "#005CA9",
+        caixaSecondary: "#FF7900",
+        caixaBg: "#F5F7FA",
+      },
+    },
   },
   plugins: [],
 };

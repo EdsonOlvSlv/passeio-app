@@ -1,12 +1,12 @@
+// src/app/template/template.module.ts
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { TemplateRoutingModule } from './template-routing.module';
+import { RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
-import { CategoriasModule } from '../categorias/categorias.module';
 
 @NgModule({
   declarations: [LayoutComponent],
-  imports: [CommonModule, TemplateRoutingModule, CategoriasModule],
+  imports: [CommonModule, RouterModule],
+  exports: [LayoutComponent],
 })
 export class TemplateModule {}

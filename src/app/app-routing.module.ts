@@ -1,21 +1,30 @@
+// src/app/app-routing.module.ts
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingpageComponent } from './landingpage/landingpage.component';
+import { LayoutComponent } from './template/layout/layout.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: LandingpageComponent,
+    component: LayoutComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: 'produtos' },
+      {
+        path: 'produtos',
+        loadChildren: () =>
+          import('./produtos/produtos.module').then((m) => m.ProdutosModule),
+      },
+      {
+        path: 'simular',
+        loadChildren: () =>
+          import('./simulacoes/simulacoes.module').then(
+            (m) => m.SimulacoesModule
+          ),
+      },
+    ],
   },
-  {
-    path: 'paginas',
-    loadChildren: () =>
-      import('./template/template.module').then((m) => m.TemplateModule),
-  },
+  { path: '**', redirectTo: '' },
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-})
+@NgModule({ imports: [RouterModule.forRoot(routes)], exports: [RouterModule] })
 export class AppRoutingModule {}

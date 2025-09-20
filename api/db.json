@@ -1,58 +1,52 @@
 {
-  "categorias": [
+  "produtos": [
     {
-      "id": "2",
-      "nome": "Shoppings",
-      "descricao": "Para fazer compras e passear"
+      "id": 1,
+      "nome": "Empréstimo Pessoal",
+      "taxaJurosAnual": 18,
+      "prazoMaximoMeses": 60
     },
     {
-      "id": "ac14",
-      "nome": "Restaurantes",
-      "descricao": "Para alimentação"
+      "nome": "Emprestimo Vip",
+      "taxaJurosAnual": 10,
+      "prazoMaximoMeses": 30,
+      "id": 2
     },
     {
-      "id": "ac1d4",
-      "nome": "Praias",
-      "descricao": "Para relaxar e aproveitar o sol"
-    },
-    {
-      "id": "56f3",
-      "nome": "Lagos e Rios",
-      "descricao": "Lugares para passear, nadar e lanchar"
+      "nome": "Emprestimo Prime",
+      "taxaJurosAnual": 10,
+      "prazoMaximoMeses": 5,
+      "id": 3
     }
   ],
-  "lugares": [
+  "simulacoes": [
     {
-      "id": "d328",
-      "nome": "Praia do Forte",
-      "categoria": "Praias",
-      "localizacao": "Bahia",
-      "urlFoto": "https://harus.ind.br/wp-content/uploads/2023/02/5-praias-brasileiras.jpg",
-      "avaliacao": "4"
+      "produtoId": 1,
+      "valor": 10000,
+      "meses": 12,
+      "createdAt": "2025-09-20T14:17:20.582Z",
+      "id": 1
     },
     {
-      "id": "730c",
-      "nome": "Restaurante do Fogaça",
-      "categoria": "Restaurantes",
-      "localizacao": "São Paulo",
-      "urlFoto": "https://cloudfront-us-east-1.images.arcpublishing.com/estadao/3YDNIKKI3NFKHAYYV6SB6IT5FU.jpg",
-      "avaliacao": "4"
+      "produtoId": 2,
+      "valor": 10000,
+      "meses": 12,
+      "createdAt": "2025-09-20T14:18:31.534Z",
+      "id": 2
     },
     {
-      "id": "8b80",
-      "nome": "Shopping Del Rey",
-      "categoria": "Shoppings",
-      "localizacao": "Belo Horizonte",
-      "urlFoto": "https://diariodocomercio.com.br/wp-content/uploads/2024/07/shopping-del-rey-belo-horizonte-1.jpg",
-      "avaliacao": "3"
+      "produtoId": 1,
+      "valor": 10000,
+      "meses": 12,
+      "createdAt": "2025-09-20T14:20:45.838Z",
+      "id": 3
     },
     {
-      "id": "d1d7",
-      "nome": "Rio Tiete",
-      "categoria": "Lagos e Rios",
-      "localizacao": "São Paulo",
-      "urlFoto": "https://imagens.ebc.com.br/jZNaSA3QeJIK98QbfuhU7bcBEfY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rvrsa_abr_080720120506_0.jpg?itok=qUdSTuvR",
-      "avaliacao": "Selecione uma avaliação"
+      "produtoId": 3,
+      "valor": 100000,
+      "meses": 24,
+      "createdAt": "2025-09-20T14:23:51.173Z",
+      "id": 4
     }
   ]
 }
